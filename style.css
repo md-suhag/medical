@@ -1,0 +1,73 @@
+/* common css and rest code  */
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+
+.hr-style{
+    border: 2px solid black;
+    width: 100px;
+    margin: 0 auto;
+    opacity: 1;
+}
+.hr-style1{
+    border: 2px solid black;
+    width: 100px;
+    
+    opacity: 1;
+}
+
+#hero-section{
+    background-image: url('images/element\ \(2\).png');
+    background-repeat: no-repeat;
+}
+.service-img{
+    width: 100px;
+    object-fit: contain;
+    height: 30%;
+}
+.card{
+    border: none;
+
+}
+.service-card{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.068),  -5px -5px 10px rgba(128, 128, 128, 0.072);
+}
+#service-section{
+   
+    background-image: url('images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#blog .container{
+    background-image: url('images/element\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+.card-footer{
+    border: none;
+    background-color: transparent;
+}
+footer{
+    background-image: linear-gradient(#65BCF3, #65BCF3);
+}
+footer ul{
+    padding: 0;
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer h4{
+    font-weight: bold;
+}
